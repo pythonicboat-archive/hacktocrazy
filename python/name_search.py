@@ -1,7 +1,8 @@
 from openpyxl import *
 from tkinter import *
 
-wb = load_workbook('C:\\Users\\Admin\\Desktop\\excel.xlsx')
+path = input('Enter path to file: ') wb = load_webhook(path)
+
 sheet = wb.active
 
 
